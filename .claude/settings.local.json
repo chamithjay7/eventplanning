@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/wsl/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(curl -s http://localhost:8081/health)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
