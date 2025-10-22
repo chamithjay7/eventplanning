@@ -62,3 +62,4 @@ public class Vendor {
     @JoinColumn(name = "owner_user_id", nullable = false)
     private User owner;
 }
+//evenza

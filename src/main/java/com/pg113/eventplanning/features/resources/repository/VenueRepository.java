@@ -9,3 +9,4 @@ public interface VenueRepository extends JpaRepository<Venue, Long> {
     // Search venues by name or address
     List<Venue> findByNameContainingIgnoreCaseOrAddressContainingIgnoreCase(String name, String address);
 }
+//evenza
