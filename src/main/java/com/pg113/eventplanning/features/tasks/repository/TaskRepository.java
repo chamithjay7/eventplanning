@@ -17,3 +17,4 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
     List<Task> findByEventAndDueDateBefore(Event event, Instant before);
     List<Task> findByTitleContainingIgnoreCaseOrDescriptionContainingIgnoreCase(String t, String d);
 }
+//TaskRepository

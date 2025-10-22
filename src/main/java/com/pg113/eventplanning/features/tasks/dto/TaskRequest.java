@@ -16,3 +16,4 @@ public class TaskRequest {
     private Long assignedToUserId; // optional on create
     private Long eventId;          // required
 }
+//TaskRequest
