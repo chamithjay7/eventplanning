@@ -26,3 +26,4 @@ public class VendorRequest {
     @Size(max = 1000)
     private String description;
 }
+//evenza

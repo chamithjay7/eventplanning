@@ -10,3 +10,4 @@ public interface VendorRepository extends JpaRepository<Vendor, Long> {
     // Search by name or category
     List<Vendor> findByNameContainingIgnoreCaseOrCategoryContainingIgnoreCase(String name, String category);
 }
+//evenza

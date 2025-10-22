@@ -93,5 +93,7 @@ public class VendorController {
                 .approved(v.isApproved())
                 .createdAt(v.getCreatedAt())
                 .build();
+        //evenza
     }
 }
+
