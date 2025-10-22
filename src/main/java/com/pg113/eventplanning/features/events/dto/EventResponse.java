@@ -15,7 +15,7 @@ public class EventResponse {
     private String location;
     private Instant startTime;
     private Instant endTime;
-    private EventStatus status;   // include current status
+    private EventStatus status;   // current status
     private Instant createdAt;
     private Instant updatedAt;
 }

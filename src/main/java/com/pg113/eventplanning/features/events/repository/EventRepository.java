@@ -37,3 +37,5 @@ public interface EventRepository extends JpaRepository<Event, Long> {
            "ORDER BY e.startTime DESC")
     Page<Event> searchPastEvents(@Param("q") String q, @Param("now") LocalDateTime now, Pageable pageable);
 }
+
+// event repository

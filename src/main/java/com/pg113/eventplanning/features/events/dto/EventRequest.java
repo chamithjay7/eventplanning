@@ -30,4 +30,5 @@ public class EventRequest {
 
     // ⚠️ We do NOT expose status here — always starts as DRAFT,
     // then organizer can publish/cancel later.
+    // event request
 }

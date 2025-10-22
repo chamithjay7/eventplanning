@@ -20,6 +20,7 @@ public class TicketTypeController {
 
     private final TicketingService ticketingService;
 
+    // get by event ID
     @GetMapping
     public List<TicketTypeResponse> getByEvent(@PathVariable Long eventId) {
         return ticketingService.getTicketTypesByEvent(eventId);
@@ -32,6 +33,7 @@ public class TicketTypeController {
         return ticketingService.createTicketType(eventId, request, auth.getName());
     }
 
+    // delete
     @DeleteMapping("/{ticketTypeId}")
     @PreAuthorize("hasAnyRole('ORGANIZER','ADMIN')")
     @ResponseStatus(HttpStatus.NO_CONTENT)

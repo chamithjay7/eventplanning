@@ -67,4 +67,6 @@ public class Event {
     public void preUpdate() {
         updatedAt = LocalDateTime.now();
     }
+
+    // event attributes
 }
