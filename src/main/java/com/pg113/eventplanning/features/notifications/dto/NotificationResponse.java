@@ -17,3 +17,5 @@ public class NotificationResponse {
     private NotificationStatus status;
     private Instant createdAt;
 }
+
+//NotificationResponse

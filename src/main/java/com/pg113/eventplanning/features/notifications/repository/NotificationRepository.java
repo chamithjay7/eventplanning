@@ -25,3 +25,4 @@ public interface NotificationRepository extends JpaRepository<Notification, Long
     /** One by id for a user (ownership check). */
     Optional<Notification> findByIdAndUser(Long id, User user);
 }
+//Repo

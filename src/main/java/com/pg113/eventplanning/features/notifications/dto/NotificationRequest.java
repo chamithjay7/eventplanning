@@ -12,3 +12,4 @@ public class NotificationRequest {
     @NotBlank private String message;    // required
     private NotificationType type = NotificationType.GENERAL;
 }
+//NotificationRequest
